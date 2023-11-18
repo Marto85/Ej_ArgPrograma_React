@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* Example hover effect on input fields */
+form input:hover {
+  border-color: #007bff;
+}
+
+/* Example hover effect on buttons */
+.btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Estilos generales */
+
+/* Estilos específicos del formulario */
+form {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+
+/* Alineación horizontal de los botones */
+form button {
+  width: 48%; /* 48% para que haya un pequeño espacio entre los botones */
+}
+
+/* Alineación horizontal de los campos de entrada */
+form input {
+  width: 100%;
+  margin-top: 20px;
+}
+
+form button[type="reset"] {
+  margin-left: 2%;
+}
+
